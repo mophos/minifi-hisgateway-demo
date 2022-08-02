@@ -1,3 +1,4 @@
 minifi-conf/archive/*
 minifi-conf/flow.xml.gz
+minifi-conf/config.yml
 data/connections/*
