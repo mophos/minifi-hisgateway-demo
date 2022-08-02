@@ -1,0 +1,12 @@
+version: "3"
+services:
+  minifi:
+    image: "mophos/hisgateway-minifi"
+    container_name: "minifi"
+    ports:
+      - 3000:3000
+    volumes:
+      - ./env.yaml:/opt/minifi/env.yaml
+      - ./minifi-conf:/opt/minifi/conf
+      - ./data:/opt/minifi/data
+    restart: always

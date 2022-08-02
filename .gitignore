@@ -1,0 +1,3 @@
+minifi-conf/archive/*
+minifi-conf/flow.xml.gz
+data/connections/*
